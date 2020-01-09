@@ -1,0 +1,4 @@
+---
+target: "Screen:name:idr0072-schormann-subcellref/screenB"
+include: "../bulk.yml"
+path: "idr0072-screenB-plates.tsv"
