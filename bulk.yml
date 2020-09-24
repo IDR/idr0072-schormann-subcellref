@@ -2,7 +2,9 @@
 continue: "true"
 transfer: "ln_s"
 exclude: "clientpath"
-skip: "all"
+skip:
+  - checksum
+  - minmax
 logprefix: "logs/"
 output: "yaml"
 parallel_upload: "10"
