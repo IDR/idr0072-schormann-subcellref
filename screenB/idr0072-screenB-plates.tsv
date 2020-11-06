@@ -3,7 +3,7 @@
 2015-10-29 plate114/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/2015-10-29 plate114/Meas_01
 2015-10-29 plate115/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/2015-10-29 plate115/Meas_01
 2015-10-30 plate116/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/2015-10-30 plate116/Meas_02
-2015-10-20 plate117/Meas_01	/uod/idr/metadata/idr0072-schormann-subcellref/screenB/2015-10-30 plate117/Meas_01
+2015-10-20 plate117/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20201106-plates/2015-10-30 plate117/Meas_01
 VAMP1_DEG_20120502/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP1_DEG_20120502/Meas_01
 VAMP1_DEG_20120509/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP1_DEG_20120509/Meas_01
 VAMP1_DEG_20120514/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP1_DEG_20120514/Meas_01
@@ -26,7 +26,8 @@ Vamp_deg_20130921/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/2019112
 VAMP_deg_20130925_plate4/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_deg_20130925_plate4/Meas_01
 VAMP_deg_20131008/Meas_02	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_deg_20131008/Meas_02
 VAMP_deg_20131010_ERGIC53/Meas01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_deg_20131010_ERGIC53/Meas_01
-VAMP_DEG_20131023/Meas_02	/tmp/VAMP_DEG_20131023_Meas02
+VAMP_DEG_20131023/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20201106-plates/VAMP_DEG_20131023_Meas01
+VAMP_DEG_20131023/Meas_02	/uod/idr/filesets/idr0072-schormann-subcellref/20201106-plates/VAMP_DEG_20131023_Meas02
 VAMP_DEG_BIN1_CB5_PL86_20141030/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_BIN1_CB5_PL86_20141030/Meas_01
 VAMP_DEG_BIN1_CB5_PL87_20141030/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_BIN1_CB5_PL87_20141030/Meas_01
 VAMP_DEG_BIN1_LAMINA_20140515/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_BIN1_LAMINA_20140515/Meas_01
@@ -81,3 +82,4 @@ VAMP_DEG_PL68_20140415/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20
 VAMP_DEG_Pl80_BIN_20140628/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_Pl80_BIN_20140628/Meas_01
 VAMP_DEG_Pl96_20150315/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_Pl96_20150315/Meas_01
 VAMP_DEG_Pl96_20150317/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20191127-disk/UpLoadtoIDR/NMUMG/Plates/VAMP_DEG_Pl96_20150317/Meas_01
+VAMP_DEG_PL10-MAO_20150505/Meas_01	/uod/idr/filesets/idr0072-schormann-subcellref/20201104-ftp/VAMP_DEG_PL10-MAO_20150505/Meas_01/
