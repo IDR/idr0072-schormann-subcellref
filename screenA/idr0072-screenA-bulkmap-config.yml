@@ -1,0 +1,79 @@
+---
+name: idr0072-schormann-subcellref/screenA
+version: 1
+
+defaults:
+  include: false
+  type: string
+  includeclient: true
+  visible: true
+  omitempty: true
+
+columns:
+
+  - name: Experimental Condition [Subcellular Localization]
+    clientname: Subcellular Localization
+    include: true
+  - name: Addgene ID
+    clientname: Addgene ID
+    include: true
+  - name: Channels
+    clientname: Channels
+    include: true
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/protein
+      columns:
+        - name: Comment [Protein Name Abbreviation]
+          clientname: Protein
+          include: true
+        - name: UniProt ID
+          clientname: UniProt ID
+          include: yes
+        - name: UniProt ID
+          clientname: UniProt ID
+          clientvalue: https://www.uniprot.org/{{ value|urlencode }}
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/protein/supplementary
+      columns:
+        - name: Comment [Protein Name]
+          clientname: Protein Name
+          include: yes
+        - name: Protein Sequence (aa)
+          clientname: Protein Sequence (aa)
+          include: yes
+
+
+advanced:
+  well_to_images: true
+  ignore_missing_primary_key: true
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+    - namespace: openmicroscopy.org/mapr/protein
+      keys:
+        - Protein
