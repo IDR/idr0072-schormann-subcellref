@@ -46,11 +46,8 @@ columns:
           clientname: Protein
           include: true
         - name: UniProt ID
-          clientname: UniProt ID
-          include: yes
-        - name: UniProt ID
-          clientname: UniProt ID
-          clientvalue: https://www.uniprot.org/{{ value|urlencode }}
+          clientname: Protein URL
+          clientvalue: https://www.uniprot.org/uniprot/{{ value|urlencode }}
           include: true
 
   - group:
@@ -61,6 +58,9 @@ columns:
           include: yes
         - name: Protein Sequence (aa)
           clientname: Protein Sequence (aa)
+          include: yes
+        - name: UniProt ID
+          clientname: UniProt ID
           include: yes
 
 
