@@ -40,6 +40,20 @@ columns:
           include: true
 
   - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Symbol]
+	  clientname: Gene Symbol
+          include: yes
+        - name: Comment [Gene Identifier]
+	  clientname: Gene Identifier
+          include: yes
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier URL
+          clientvalue: https://www.ncbi.nlm.nih.gov/gene/{{ value|urlencode }}
+          include: yes
+
+  - group:
       namespace: openmicroscopy.org/mapr/protein
       columns:
         - name: Comment [Protein Name Abbreviation]
@@ -74,6 +88,10 @@ advanced:
     - namespace: openmicroscopy.org/mapr/cell_line
       keys:
         - Cell Line
+    - namespace: openmicroscopy.org/mapr/gene
+      keys:
+        - Gene Identifier
+        - Gene Symbol
     - namespace: openmicroscopy.org/mapr/protein
       keys:
         - Protein
