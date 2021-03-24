@@ -43,10 +43,10 @@ columns:
       namespace: openmicroscopy.org/mapr/gene
       columns:
         - name: Comment [Gene Symbol]
-	  clientname: Gene Symbol
+          clientname: Gene Symbol
           include: yes
         - name: Comment [Gene Identifier]
-	  clientname: Gene Identifier
+          clientname: Gene Identifier
           include: yes
         - name: Comment [Gene Identifier]
           clientname: Gene Identifier URL
