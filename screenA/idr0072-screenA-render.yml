@@ -2,7 +2,7 @@
 channels:
   1:
     label: DRAQ5
-    color: "0000FF"
+    color: "FF0000"
   2:
     label: EGFP
     color: "00FF00"
