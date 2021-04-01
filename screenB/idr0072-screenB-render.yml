@@ -1,0 +1,8 @@
+---
+channels:
+  1:
+    label: EGFP
+    color: "00FF00"
+  2:
+    label: DRAQ5
+    color: "FF0000"
