@@ -4,7 +4,7 @@ transfer: "ln_s"
 exclude: "clientpath"
 skip:
   - checksum
-  - minmax
+  - thumbnails
 logprefix: "logs/"
 output: "yaml"
 parallel_upload: "10"
