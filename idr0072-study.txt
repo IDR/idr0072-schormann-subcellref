@@ -14,17 +14,17 @@ Study Organism
 Study Organism Term Source REF	NCBITaxon																		
 Study Organism Term Accession	
 																		
-Study Experiments Number	2																						
+Study Screens Number	2																						
 Study External URL																											
 Study BioImage Archive Accession																			
 Study Public Release Date	2021-04-29																																														
 # Study Publication																					
 Study PubMed ID	31968357																						
-Study Publication Title	A Reference Library for Characterizing Protein Subcellular Localizations by Image-Based Machine Learning																												
+Study Publication Title	A reference library for assigning protein subcellular localizations by image-based machine learning																												
 Study Author List	Schormann W, Hariharan S, Andrews DW																		
-Study PMC ID	
+Study PMC ID	PMC7055006
 																		
-Study DOI	https://doi.org/10.1083/jcb.201904090																																								
+Study DOI	10.1083/jcb.201904090																																								
 # Study Contacts																								
 Study Person Last Name	Andrews																						
 Study Person First Name	David W.																						
