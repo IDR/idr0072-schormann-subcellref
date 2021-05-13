@@ -37,7 +37,7 @@ Study License	CC BY 4.0
 Study License URL	https://creativecommons.org/licenses/by/4.0/																		
 Study Copyright	Schormann et al																							
 Study Data Publisher	University of Dundee																						
-Study Data DOI																																												
+Study Data DOI	https://doi.org/10.17867/10000160																																										
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi																	
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																																																
 # SCREEN SECTION	
@@ -46,6 +46,9 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 # For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.																							
 Screen Number	1																						
 Comment[IDR Screen Name]	idr0072-schormann-subcellref/screenA	
+
+
+Screen Data DOI	https://doi.org/10.17867/10000160a
 
 
 Screen Sample Type	cell
@@ -156,7 +159,11 @@ Processed Data Column Annotation Level	experimental condition and gene, phenotyp
 Processed Data Column Description																												
 Processed Data Column Link To Assay File																																								
 Screen Number	2																						
-Comment[IDR Screen Name]	idr0072-schormann-subcellref/screenB																				
+Comment[IDR Screen Name]	idr0072-schormann-subcellref/screenB	
+
+
+Screen Data DOI	https://doi.org/10.17867/10000160b
+																			
 Screen Sample Type	cell																								
 Screen Description	EGFP fusion proteins of organelle marker proteins were stably expressed in eukaryotic cells NMuMG.  																					
 Screen Size	Plates: 	5D Images: 	Planes: 	Average Image Dimension (XYZCT): 	Total Tb: 																											
